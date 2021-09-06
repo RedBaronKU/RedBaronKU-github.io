@@ -1,0 +1,74 @@
+#cover {
+  background-image: url(https://images.hindustantimes.com/img/2021/08/19/1600x900/patrick-dozkVhDyvhQ-unsplash_1628163163817_1629346849962.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 713px;
+  background-attachment: fixed;
+}
+.cover-text {
+  padding-top: 5%;
+  padding-left: 3%;
+  color: #ffffff;
+}
+
+#photographer_name {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: "Kaisei HarunoUmi", serif;
+}
+
+#photographer_passion {
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+#photographer_story {
+  font-family: "Cedarville Cursive", cursive;
+  letter-spacing: 1.5px;
+  font-size: 1.75rem;
+}
+.photographer_connect {
+  margin-top: 40px;
+  align-items: center;
+}
+
+#button_cover {
+  margin: 15px;
+}
+
+.about {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 3%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 3%;
+}
+
+#project_heading {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 3%;
+}
+.cards_list {
+  justify-content: space-between;
+}
+.card {
+  margin-top: 20px;
+}
+.card-img-top {
+  transition: transform 450ms;
+}
+.card-img-top:hover {
+  transform: scale(1.08);
+}
+footer {
+  margin-top: 20px;
+}
+.footer-row1 {
+  margin-top: 10px;
+}
+#linkedIN {
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- fonts -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+
+    <!-- css -->
+    <link rel="stylesheet" href="miniproject.css"/>
+    <title>PhotoGraph</title>
+</head>
+<body>
+    <!-- <div class="container-fluid">
+        <div class="nav navbar-light bg-light">
+            <div class="navbar-brand">PhotoSite</div>
+            <div class="navbar nav">
+                <ul>
+                    <li class="nav-text">Home</li>
+                    <li class="nav-text">About</li>
+                    <li class="nav-text">Contact Us</li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+    <div id="cover" class="container-fluid">
+        <div class="col-6 cover-text">    
+            <h1 id="photographer_name" class="display-3">Alice Aspen</h1> 
+            <h3 id="photographer_passion">lorem ipsum / dolor sit amet</h3>
+            <h5 id="photographer_story">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repudiandae nam temporibus minima officia rerum sint exercitationem error id dolorem? Quidem minus eligendi fuga nam suscipit, debitis magni! Impedit dolorum alias id!</h4>
+        </div>
+        <div class="container-fluid photographer_connect">
+            <button onclick="location.href='#heading'" class="btn btn-outline-light btn-lg w-50" id="button_cover">Biz Enquiry</button>
+            <button class="btn btn-outline-light btn-lg w-50" id="button_cover">My Projects</button>
+            <hr class="col-7" style="height:2px;border-width:0;color:gray;background-color:gray">
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+
+        </div>
+    </div>
+    <div class="container-fluid about">
+        <p id="heading" class="display-4">
+            About Me
+        </p>
+        <p class="display-7">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, aut voluptatum nobis ipsum cumque aspernatur commodi, porro repellendus, dolor dicta adipisci quisquam. Aut reiciendis veniam aperiam numquam, facilis quod aliquam exercitationem rem, iusto tempora, possimus laboriosam repellendus pariatur eaque? Placeat tenetur obcaecati, dolorem cupiditate vitae nobis atque impedit totam sunt, eum tempora iusto nesciunt maxime possimus consequatur fugit a. Modi quam voluptate, molestiae non voluptas enim ad consectetur harum reiciendis iste eos rem facilis. Animi, inventore ratione ipsum ab tempora quisquam possimus exercitationem eaque ipsa quo. Voluptates, earum? Placeat voluptatem quam aliquid quae quasi porro, ab soluta magni delectus obcaecati aut beatae ex rem repellendus maxime vitae iste sed sint aperiam? Magni, minima quis sequi culpa, nesciunt doloremque voluptatem tempore perspiciatis soluta, ducimus ipsa unde obcaecati distinctio beatae!</p>
+    </div>
+    <div class="container-fluid" style="padding-left: 5%; padding-right:5%">
+        <p id="project_heading" class="display-4">
+            My Projects
+        </p>
+        <div class="cards_list row">
+            <div class="card col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="https://i2.wp.com/digital-photography-school.com/wp-content/uploads/2018/04/shooting-wide.jpg?fit=750%2C434&ssl=1" class="card-img-top" alt="Deer">
+                <div class="card-body">
+                    <h5 class="card-title">WildLife</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, vero. ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nostrum?</p>
+                    <a href="#" class="btn btn-success">Follow Up 🐾-></a>
+                </div>
+            </div>
+            <div class="card col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="https://cdn.tutsplus.com/cdn-cgi/image/width=630/photo/uploads/legacy/452_urbanphotography/1.jpg"
+                    class="card-img-top" alt="Deer">
+                <div class="card-body">
+                    <h5 class="card-title">Urban scapes</h5>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi perspiciatis nulla recusandae? Iusto in laboriosam aut provident, dolores maiores nemo.</p>
+                    <a href="#" class="btn btn-warning">Explore 🌆-></a>
+                </div>
+            </div>
+            <div class="card col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="https://s3.eu-west-1.amazonaws.com/prod.news.product.which.co.uk/news/wp-content/uploads/2020/07/Bird-photography-main.jpg"
+                    class="card-img-top" alt="Deer">
+                <div class="card-body">
+                    <h5 class="card-title">Birdies 😊</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nostrum?</p>
+                    <a href="#" class="btn btn-info">Fly away -></a>
+                </div>
+            </div>
+            <div class="card col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="https://capturelandscapes.com/wp-content/uploads/2020/11/Fundamentals-of-landscape-photography-gallery-2.jpg"
+                    class="card-img-top" alt="Deer">
+                <div class="card-body">
+                    <h5 class="card-title">Nature</h5>
+                    <p class="card-text">Lorem ipsuamet consectetur adipisicing elit. Consequuntur, nostrum?</p>
+                    <a href="#" class="btn btn-success">Hike Away🌲 -></a>
+                </div>
+            </div>
+            <div class="card col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="https://mymodernmet.com/wp/wp-content/uploads/2020/03/greg-lecoeur-underwater-photography-6.jpg"
+                    class="card-img-top" alt="Deer">
+                <div class="card-body">
+                    <h5 class="card-title">Marine Life</h5>
+                    <p class="card-text">Lorem ipsuamet consectetur adipisicing elit. Consequuntur, nostrum?</p>
+                    <a href="#" class="btn btn-primary">Dive In ⛵ -></a>
+                </div>
+            </div>
+            <div class="card col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="https://static.toiimg.com/photo/46275279.cms"
+                    class="card-img-top" alt="Deer">
+                <div class="card-body">
+                    <h5 class="card-title">Cultures</h5>
+                    <p class="card-text">Lorem ipsuamet consectetur adipisicing elit. Consequuntur, nostrum?</p>
+                    <a href="#" class="btn btn-danger">Meet People 🧑‍🤝‍🧑 -></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="container me-5 d-none d-lg-block">
+                <span class="text-uppercase fw-bold mb-4">Connect with me:
+                    <a id="linkedIN" href="https://www.linkedin.com/in/kumar-utkarsh-19538b133/">LinkedIN</a>
+                </span>
+            </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(27, 26, 26, 0.05);">
+            2021 © Made For:<a class="text-reset fw-bold" href="https://www.newtonschool.co/">Newton School</a>
+        </div>
+    </footer>
+    
+    
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+</html>
